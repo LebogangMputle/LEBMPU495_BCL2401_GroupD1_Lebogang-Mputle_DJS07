@@ -39,7 +39,7 @@ export default function Meme() {
                         className="form--input"
                         name="topText"
                         value={meme.topText}
-                        //onChange={handleChange}
+                        onChange={handleChange}
                 />
                 
                     <input 
