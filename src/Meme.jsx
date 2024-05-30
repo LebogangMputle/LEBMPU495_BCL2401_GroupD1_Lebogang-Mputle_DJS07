@@ -1,3 +1,4 @@
+import React from 'react'
 import memesData from '../memesData.jsx'
 
 export default function Meme() {
@@ -27,6 +28,7 @@ export default function Meme() {
             ...prevMeme,
             [name]: value
         }))
+    
 
 
     return (
