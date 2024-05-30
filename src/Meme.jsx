@@ -1,5 +1,5 @@
-import React from 'react'
-import memesData from '../memesData.jsx'
+import React from "react"
+import memesData from "../memesData.jsx"
 
 export default function Meme() {
     const [meme, setMeme] = React.useState({
@@ -7,7 +7,7 @@ export default function Meme() {
         bottomText: "",
         randomImage: "http://i.imgflip.com/1bij.jpg" 
     })
-    }
+    
 
     const [allMemeImages, setAllMemeImages] = React.useState(memesData)
     
@@ -28,8 +28,7 @@ export default function Meme() {
             ...prevMeme,
             [name]: value
         }))
-    
-
+    }
 
     return (
         <main>
@@ -40,7 +39,7 @@ export default function Meme() {
                         className="form--input"
                         name="topText"
                         value={meme.topText}
-                        onChange={handleChange}
+                        //onChange={handleChange}
                 />
                 
                     <input 
@@ -65,4 +64,4 @@ export default function Meme() {
                 </div>
         </main>
     )
-}
+    }
