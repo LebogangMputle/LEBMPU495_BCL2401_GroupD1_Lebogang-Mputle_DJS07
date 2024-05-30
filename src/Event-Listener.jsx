@@ -1,4 +1,4 @@
-export default function App() {
+/*export default function App() {
     
     return (
         <div className="container">
@@ -6,4 +6,4 @@ export default function App() {
             <button>Click me</button>
         </div>
     )
-}
+}*/
