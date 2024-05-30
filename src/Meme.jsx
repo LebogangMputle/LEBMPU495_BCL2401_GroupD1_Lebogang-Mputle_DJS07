@@ -47,7 +47,7 @@ export default function Meme() {
                         placeholder="Bottom text"
                         className="form--input"
                         name="bottomText"
-                        value={meme.topText}
+                        value={meme.bottomText}
                     />
 
                     <button
