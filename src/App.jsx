@@ -1,11 +1,12 @@
 import Header from './Header.jsx'
-//import App from './App.jsx'
+import Meme from './Meme.jsx'
 
 function App() {
 
   return (
     <>
       <Header />
+      <Meme />
     </>
   )
 }
