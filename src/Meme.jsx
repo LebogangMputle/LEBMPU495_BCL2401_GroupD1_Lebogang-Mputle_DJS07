@@ -18,16 +18,16 @@ export default function Meme() {
         const url = memesArray[randomNumber].url
         setMeme(prevMeme => ({
             ...prevMeme,
-            randomImage: url
+            randomImage: url,
         }))  
     }
 
     function handleChange(event) {
-        const {name, value} = event.target
+        const {name, value} = event.target;
         setMeme(prevMeme => ({
             ...prevMeme,
-            [name]: value
-        }))
+            [name]: value,
+        }));
     }
 
     return (
