@@ -1,4 +1,4 @@
-import memesData from "../memesData.js"
+import memesData from "../memesData.jsx"
 
 export default function Meme() {
     
