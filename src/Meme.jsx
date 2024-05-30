@@ -1,4 +1,11 @@
+//import package-lock from "../package-lock.json"
+
 export default function Meme() {
+    
+    function getMemeImage(){
+        console.log("clicked");
+    }
+
     return (
         <main>
             <form className="form">
@@ -19,7 +26,9 @@ export default function Meme() {
                         className="form--input"
                     />
                 </label>
-                    <button 
+                    <button
+                        //onMouseOver={handleOnMouseOver}
+                        onClick={handleClick}click me 
                         className="form--button"
                         >
                         Get a new meme image 🖼
