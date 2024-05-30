@@ -1,6 +1,6 @@
 import Header from './Header.jsx'
 import Meme from './Meme.jsx'
-//import memesData from "../memesData.js"
+
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <Meme />
-      <memesData />
+
     </>
   )
 }
