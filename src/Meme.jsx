@@ -19,7 +19,7 @@ export default function Meme() {
         setMeme(prevMeme => ({
             ...prevMeme,
             randomImage: url,
-        }))  
+        }));  
     }
 
     function handleChange(event) {
